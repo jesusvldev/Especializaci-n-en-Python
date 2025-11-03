@@ -1,0 +1,35 @@
+5) Explicación de operadores
+
++ (suma): engade dous valores.
+
+2 + 3  # 5
+
+
+- (resta): resta o segundo do primeiro.
+
+7 - 4  # 3
+
+
+* (multiplicación): produto.
+
+6 * 5  # 30
+
+
+/ (división real): resultado con decimais.
+
+7 / 2  # 3.5
+
+
+// (división enteira): coci enteira (trunca cara abaixo).
+
+7 // 2  # 3
+
+
+% (módulo): resto da división enteira.
+
+7 % 2  # 1
+
+
+** (potencia): eleva á potencia.
+
+2 ** 3  # 8

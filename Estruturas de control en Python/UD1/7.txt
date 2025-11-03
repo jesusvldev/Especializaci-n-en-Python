@@ -1,0 +1,33 @@
+7) Conversións de tipos (que usar e por que)
+
+“Necesitas sumar o valor introducido polo usuario nun campo de texto cun número enteiro.”
+Usa int(): a entrada é texto e queres operar como enteiros.
+
+total = int(entrada_texto) + 5
+
+
+“Queres almacenar un resultado decimal para un cálculo posterior.”
+Usa float(): precisas parte decimal.
+
+valor = float(entrada_texto)
+
+
+“Debes engadir un número a unha mensaxe que estás construíndo.”
+Usa str() (ou f-strings, que converten automaticamente).
+
+mensaxe = "Resultado: " + str(numero)
+# ou
+mensaxe = f"Resultado: {numero}"
+
+
+“Queres comprobar se unha variable contén algún valor (non é nin cero, nin cadea baleira, etc.).”
+Usa bool() para obter a verdade “de Pythonic way”:
+
+bool(""), bool(0), bool([]), bool(None) → False
+
+calquera outro valor non vacío → True
+
+if bool(var):
+    print("Ten valor")
+else:
+    print("Vacía ou falso")

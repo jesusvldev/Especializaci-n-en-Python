@@ -1,0 +1,26 @@
+6) Orde de operacións
+
+Expresión:
+
+resultado = 5 + 3 * 2 ** 3 - 1
+
+
+Orde de precedencia: potencias → multiplicación/división → suma/resta.
+
+Pasos:
+
+2 ** 3 = 8
+
+3 * 8 = 24
+
+5 + 24 = 29
+
+29 - 1 = 28
+
+Polo tanto, resultado = 28.
+
+Cambiar o resultado con parénteses (exemplos):
+
+resultado = (5 + 3) * 2 ** 3 - 1   # (8)*8 - 1 = 64 - 1 = 63
+resultado = 5 + 3 * (2 ** 3 - 1)   # 5 + 3*(8-1)=5 + 3*7 = 26
+resultado = (5 + 3 * 2) ** 3 - 1   # (5+6)=11 -> 11**3=1331 -> 1330
